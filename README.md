@@ -25,7 +25,7 @@ pip install -r requirements.txt
 🧪 2. Huấn luyện mô hình (Google Colab)
 Thực hiện các bước sau để chuẩn bị mô hình:
 
-- Copy code của file train.txt và dán vào google colab
+- Copy code của file train.py và dán vào google colab
 - Import data vào
 - Run google colab
 - Tải các file .pkl (ví dụ: model.pkl, scaler.pkl) về máy tính cá nhân.
