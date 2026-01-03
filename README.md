@@ -34,13 +34,13 @@ Tải các file .pkl (ví dụ: model.pkl, scaler.pkl) về máy tính cá nhân
 
 Hãy đảm bảo các file mô hình được đặt trong thư mục models/:
 
+```bash
 project-folder/
-
 ├── models/
 │   └── (dán các file .pkl vào đây)
 ├── app.py
 └── requirements.txt
-
+```
 ⚡ Chạy ứng dụng
 Mở Terminal tại thư mục gốc của dự án.
 
