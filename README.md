@@ -4,6 +4,16 @@ Dự án hướng dẫn quy trình từ huấn luyện mô hình trên Google Co
 
 ---
 
+💻  Triển khai ứng dụng (VS Code)
+📂 Cấu trúc thư mục chuẩn
+
+```bash
+project-folder/
+├── models/
+│   └── (dán các file .pkl vào đây)
+├── app.py
+└── requirements.txt
+```
 ## 🛠 1. Cài đặt thư viện
 
 Đầu tiên, hãy tạo file `requirements.txt` với nội dung sau:
@@ -31,8 +41,7 @@ Thực hiện các bước sau để chuẩn bị mô hình:
 - Tải các file .pkl (ví dụ: model.pkl, scaler.pkl) về máy tính cá nhân.
 - Copy các file pkl được xuất ra và dán vào models
 
-💻 3. Triển khai ứng dụng (VS Code)
-📂 Cấu trúc thư mục chuẩn
+📂 Đảm bảo cấu trúc thư mục sẽ như hình 
 
 Hãy đảm bảo các file mô hình được đặt trong thư mục models/:
 
