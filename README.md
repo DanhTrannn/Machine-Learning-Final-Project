@@ -25,9 +25,11 @@ pip install -r requirements.txt
 🧪 2. Huấn luyện mô hình (Google Colab)
 Thực hiện các bước sau để chuẩn bị mô hình:
 
-Chạy code huấn luyện trong notebook để tạo ra các file định dạng .pkl.
-
-Tải các file .pkl (ví dụ: model.pkl, scaler.pkl) về máy tính cá nhân.
+- Copy code của file train.txt và dán vào google colab
+- Import data vào
+- Run google colab
+- Tải các file .pkl (ví dụ: model.pkl, scaler.pkl) về máy tính cá nhân.
+- Copy các file pkl được xuất ra và dán vào models
 
 💻 3. Triển khai ứng dụng (VS Code)
 📂 Cấu trúc thư mục chuẩn
