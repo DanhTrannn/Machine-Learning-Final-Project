@@ -1,9 +1,20 @@
 🚀 Dự Án Machine Learning App với Streamlit
-Hướng dẫn run dự án
+Dự án này hướng dẫn cách huấn luyện mô hình trên Google Colab và triển khai giao diện dự báo bằng Streamlit tại máy cục bộ (Local).
+
+📋 Mục lục
+Cài đặt thư viện
+
+Huấn luyện mô hình (Google Colab)
+
+Triển khai ứng dụng (VS Code)
+
 1. Cài đặt thư viện
 Trước tiên, hãy đảm bảo bạn đã cài đặt đầy đủ các thư viện cần thiết.
+
 Tạo file requirements.txt:
+
 Plaintext
+
 streamlit
 pandas
 scikit-learn
@@ -11,10 +22,13 @@ joblib
 matplotlib
 seaborn
 Chạy lệnh cài đặt:
+
 Bash
+
 pip install -r requirements.txt
 2. Huấn luyện mô hình (Google Colab)
 Quy trình chuẩn bị mô hình từ môi trường đám mây:
+
 Mở file notebook trên Google Colab.
 
 Chạy toàn bộ các cell mã nguồn huấn luyện để tạo ra các tệp mô hình đã đóng gói:
