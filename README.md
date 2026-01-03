@@ -1,52 +1,41 @@
-🚀 Dự Án Machine Learning App với Streamlit
-Dự án này hướng dẫn cách huấn luyện mô hình trên Google Colab và triển khai giao diện dự báo bằng Streamlit tại máy cục bộ (Local).
+# 🚀 Machine Learning App with Streamlit
 
-📋 Mục lục
-Cài đặt thư viện
+Dự án hướng dẫn quy trình từ huấn luyện mô hình trên Google Colab đến triển khai ứng dụng dự báo giao diện web.
 
-Huấn luyện mô hình (Google Colab)
+---
 
-Triển khai ứng dụng (VS Code)
+## 🛠 1. Cài đặt thư viện
 
-1. Cài đặt thư viện
-Trước tiên, hãy đảm bảo bạn đã cài đặt đầy đủ các thư viện cần thiết.
+Đầu tiên, hãy tạo file `requirements.txt` với nội dung sau:
 
-Tạo file requirements.txt:
-
-Plaintext
-
+```text
 streamlit
 pandas
 scikit-learn
 joblib
 matplotlib
 seaborn
-Chạy lệnh cài đặt:
+```
 
-Bash
-
+Sau đó, mở Terminal và chạy lệnh:
+```bash
 pip install -r requirements.txt
-2. Huấn luyện mô hình (Google Colab)
-Quy trình chuẩn bị mô hình từ môi trường đám mây:
+```
 
-Mở file notebook trên Google Colab.
+🧪 2. Huấn luyện mô hình (Google Colab)
+Thực hiện các bước sau để chuẩn bị mô hình:
 
-Chạy toàn bộ các cell mã nguồn huấn luyện để tạo ra các tệp mô hình đã đóng gói:
+Chạy code huấn luyện trong notebook để tạo ra các file định dạng .pkl.
 
-model.pkl
+Tải các file .pkl (ví dụ: model.pkl, scaler.pkl) về máy tính cá nhân.
 
-scaler.pkl (nếu có)
-
-Tải các file .pkl này về máy tính cá nhân.
-
-3. Triển khai ứng dụng (VS Code)
-Để chạy ứng dụng trên máy của bạn, hãy làm theo các bước sau:
-
-📂 Cấu trúc thư mục
-Đảm bảo các file mô hình được đặt đúng vị trí:
+💻 3. Triển khai ứng dụng (VS Code)
+📂 Cấu trúc thư mục chuẩn
+Hãy đảm bảo các file mô hình được đặt trong thư mục models/:
 
 Plaintext
 
+project-folder/
 ├── models/
 │   └── (dán các file .pkl vào đây)
 ├── app.py
@@ -54,21 +43,9 @@ Plaintext
 ⚡ Chạy ứng dụng
 Mở Terminal tại thư mục gốc của dự án.
 
-Thực thi lệnh sau:
+Chạy lệnh sau để khởi chạy giao diện:
 
-Bash
-
+```Bash
 streamlit run app.py
-Ứng dụng sẽ tự động mở trên trình duyệt tại địa chỉ: http://localhost:8501.
-
-🛠 Công cụ sử dụng
-Ngôn ngữ: Python
-
-Thư viện chính: Streamlit, Scikit-learn
-
-Môi trường: Google Colab, VS Code
-
-Mẹo để README trông "xịn" hơn nữa:
-Thêm ảnh chụp màn hình: Bạn có thể chụp giao diện ứng dụng Streamlit và chèn vào bằng cú pháp ![Giao diện App](đường-dẫn-ảnh).
-
-Thêm Badge: Bạn có thể thêm các huy hiệu như: ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+```
+Truy cập địa chỉ http://localhost:8501 trên trình duyệt để xem kết quả.
