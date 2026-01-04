@@ -66,10 +66,12 @@ Chúng tôi thực hiện cắt bỏ từng thành phần của mô hình để 
    ```
 2. Cài đặt thư viện cần thiết:
    ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn plotly joblib
+   pip install -r requirements.txt
    ```
-3. Chạy Notebook: Mở file `.ipynb` trên Google Colab hoặc Jupyter Notebook và thực thi các cell.
-
+3. Chạy lệnh sau để khởi chạy giao diện:
+```Bash
+streamlit run app.py
+```
 
 
 ## ⚖️ License
